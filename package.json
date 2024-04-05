@@ -1,0 +1,21 @@
+{
+  "name": "poc",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.12.4",
+    "ts-node": "^10.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "strophe.ts": "ts-node strophe.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "strophe.js": "^2.0.0",
+    "ws": "^8.16.0",
+    "xhr2": "^0.2.1"
+  }
+}
